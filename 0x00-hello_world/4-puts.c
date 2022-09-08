@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	puts("\"with proper grammer, but the outcome is a peiceof art,");
+	puts("with proper grammer, but the outcome is a peiceof art,");
 	return (0);
 }
