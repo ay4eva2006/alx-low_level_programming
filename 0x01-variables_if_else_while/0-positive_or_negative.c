@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Lanzador
  *
@@ -26,5 +25,4 @@ int main(void)
 	else
 		printf("%d is negative\n", n);
 	return (0);
-}
-	
+}	
