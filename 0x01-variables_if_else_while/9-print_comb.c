@@ -17,7 +17,7 @@ int main(void)
 		if (a == '9')
 		{
 			putchar('\n');
-			 return (0);
+			return (0);
 		}
 		else
 		{
