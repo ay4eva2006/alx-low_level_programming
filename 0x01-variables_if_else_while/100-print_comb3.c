@@ -1,12 +1,12 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success/correct)
  */
+
 int main(void)
-{
+{ 
 	int i;
 	int j;
 	
@@ -20,8 +20,7 @@ int main(void)
 				putchar(j);
 				if (j == 57 && i == 56)
 				{
-					break
-						;
+					break;
 				}
 				putchar(',');
 				putchar(' ');
