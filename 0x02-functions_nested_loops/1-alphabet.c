@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- *  print_alphabet - Entry point
- *
- * Description: program that prints the alphabets
- * followed by a new line
- *
- * Return: Exit int function with an int 0
+ * main - print_alphabet
+ * Return: 0
  */
+
 void print_alphabet(void)
 {
-	int aa;
+	char c = 'a';
 
-	for (aa = 'a'; aa <= 'z'; aa++)
+	while (c <= 'z')
 	{
-		_putchar(aa);
+		_putchar(c);
+		c++;
+
 	}
 	_putchar('\n');
-
 }
