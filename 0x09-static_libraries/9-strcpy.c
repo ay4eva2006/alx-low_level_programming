@@ -1,7 +1,21 @@
 #include "main.h"
 
-int main(void)
+/**
+ * _strcpy - copies string
+ * @dest: poiter
+ * @src: poiter
+ * Return: char
+ */
+
+char *_strcpy(char *dest, char *src)
 {
-	_putchar("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
-	return (0);
+	int i;
+
+	for (i = 0; *(src + i) != '\0'; i++)
+	{
+		dest[i] = *(src + i);
+	}
+	dest[i] = '\0';
+
+	return (dest);
 }

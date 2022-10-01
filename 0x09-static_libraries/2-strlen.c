@@ -1,7 +1,18 @@
 #include "main.h"
+/**
+ * _strlen - string lenght
+ * @s: params
+ * Return: int
+ */
 
-int main(void)
+int _strlen(char *s)
 {
-	_putchar("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
-	return (0);
+	int count = 0;
+
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+
+	return (count);
 }
