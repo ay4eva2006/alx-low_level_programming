@@ -5,6 +5,7 @@
  * print_alphabet_x10 - print a - z ten times
  * return: always 0.
  */
+int main(void)
 
 void print_alphabet_x10(void)
 {
