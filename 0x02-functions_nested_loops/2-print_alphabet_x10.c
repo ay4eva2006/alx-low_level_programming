@@ -6,9 +6,9 @@
  * return: always 0.
  */
 int main(void)
-
-void print_alphabet_x10(void)
 {
+void print_alphabet_x10(void)
+
 	int i;
 	char j;
 
