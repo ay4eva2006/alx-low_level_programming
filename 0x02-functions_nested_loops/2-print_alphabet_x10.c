@@ -1,13 +1,14 @@
-#include "main.h"
+By#include "main.h"
 
 /**
  * main - to check the code.
  * print_alphabet_x10 - print a - z ten times
  * return: always 0.
  */
-
-void print_alphabet_x10(void);
+int main(void)
 {
+void print_alphabet_x10(void);
+
 
 	int i;
 	char j;
