@@ -1,4 +1,4 @@
-IkOi#include "main.h"
+#include "main.h"
 
 /**
  * _islower - Short description, single line
@@ -9,7 +9,7 @@ int _islower(int c)
 
 {
 
-	if (c > 'a' && c < 'z')
+	if (c > 97 && c < 122)
 	{
 		return (1);
 	}
