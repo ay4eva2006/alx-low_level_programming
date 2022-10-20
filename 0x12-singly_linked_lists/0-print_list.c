@@ -2,18 +2,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stddef.h>
-
 /**
- * print_list - prints list.
- * @h: param list
- * Return: struct
+ * print_list - prints a list
+ * @h: head of list
+ * Return: number of elements
  */
-
 size_t print_list(const list_t *h)
 {
-	size_t l_node;
+	int count = 0;
 
-	l_node = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
@@ -21,7 +18,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
-		l_node++;
+		count++;
 	}
-	return (l_node);
+	return (count);
 }
