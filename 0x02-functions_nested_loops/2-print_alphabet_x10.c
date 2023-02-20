@@ -3,7 +3,7 @@
 /**
  * main - to check the code.
  * Description: print_alphabet_x10 - print a - z ten times
- * return: Always 0 (Success)
+ * return - void
  */
 void print_alphabet_x10(void)
 {
