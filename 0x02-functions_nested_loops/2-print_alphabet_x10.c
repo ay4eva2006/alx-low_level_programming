@@ -2,7 +2,7 @@
 
 /**
  * main - to check the code.
- * Description: print_alphabet_x10 - print a - z ten times
+ * print_alphabet_x10 - Entry point to this file
  * return - void
  */
 void print_alphabet_x10(void)
