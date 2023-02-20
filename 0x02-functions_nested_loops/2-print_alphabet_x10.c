@@ -2,7 +2,7 @@
 
 /**
  * main - to check the code.
- * print_alphabet_x10 - print a - z ten times
+ * Description: print_alphabet_x10 - print a - z ten times
  * return: always 0.
  */
 
