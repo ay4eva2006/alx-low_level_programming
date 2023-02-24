@@ -1,0 +1,4 @@
+#This target will compile all the files
+all: main.c school.c
+	gcc main.c school.c -o school
+
